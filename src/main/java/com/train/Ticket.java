@@ -24,8 +24,8 @@ public class Ticket {
     /*--------------------------------------*/
 
     //price
-    public double totalOf_price(int num, int num_round){
-        return 2*num_round*this.priceOfTicket*this.discount + (num - num_round)*priceOfTicket;
+    public double totalOfPrice(int num, int numOfRound){
+        return 2*numOfRound*this.priceOfTicket*this.discount + (num - numOfRound)*priceOfTicket;
     }
 
 }

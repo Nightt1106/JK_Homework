@@ -6,7 +6,7 @@ fun main(){
         println("Please enter number of tickets: ")
         val num = readLine()?.toInt()
         println("How many round-trip tickets: ")
-        val numRound = readLine()?.toInt()
-        print("Total tickets: $num \n Round-trip: $numRound \n Total: ${tk.totalOf_price(num!!, numRound!!)} \n")
+        val numOfRound = readLine()?.toInt()
+        print("Total tickets: $num \n Round-trip: $numOfRound \n Total: ${tk.totalOfPrice(num!!, numOfRound!!)} \n")
     }
 }

@@ -12,10 +12,10 @@ public class Tester {
             System.out.println("Please enter number of tickets: ");
             int num = scanner.nextInt();
             System.out.println("How many round_trip tickets: ");
-            int numRound = scanner.nextInt();
+            int numOfRound = scanner.nextInt();
             System.out.println("Total tickets: " + num);
-            System.out.println("Round-trip: " + numRound);
-            System.out.println("Total: " + tk.totalOf_price(num,numRound));
+            System.out.println("Round-trip: " + numOfRound);
+            System.out.println("Total: " + tk.totalOfPrice(num, numOfRound));
             System.out.println("Continue?(y/n)");
         }
     }
